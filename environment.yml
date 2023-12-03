@@ -1,0 +1,11 @@
+name: env_open3d
+channels:
+  - anaconda
+  - defaults
+dependencies:
+  - jupyter
+  - pandas
+  - pillow
+  - numpy
+  - pip:
+    - open3d==0.16.0
